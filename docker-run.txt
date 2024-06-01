@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -p 443:443 -v /tmp/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf --name openresty-jwt my-openresty-jwt
